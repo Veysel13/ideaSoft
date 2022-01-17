@@ -33,7 +33,7 @@ class CampaignSeeder extends Seeder
 
         DB::table('campaigns')->insert([
             'type'=>'category_cheapest_discount',
-            'type_id'=>6,
+            'type_id'=>1,
             'min_price'=>0,
             'discount'=>20,
             'quantity'=>2,
